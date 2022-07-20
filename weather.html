@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Weather APP</title>
+	<style>
+		img {
+			height: 50px;
+			float: center;
+		}
+
+		.each-table{
+			width: 50%;
+			height: 10vh;
+			font-size: 20px;
+			text-align: center;
+			justify-items: center;
+		}
+
+		th{
+			height: 70px;
+		}
+
+	</style>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+	<table class="each-table" border="1">
+		<thead>
+			<tr>
+				<td>開始時間</td>
+				<th>結束時間</th>
+				<th>降雨機率</th>
+				<th>最低溫度</th>
+				<th>最高溫度</th>
+				<th>天氣現象</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	<script src="assets/js/weather.js?v=<?= time() ?>"></script>
+</body>
+
+</html>
